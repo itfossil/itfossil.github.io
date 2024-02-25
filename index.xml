@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Musings of an IT Fossil</title>
+    <link>https://itfossil.com/</link>
+    <description>Recent content on Musings of an IT Fossil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://itfossil.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tech Interviews Are the Worst</title>
+      <link>https://itfossil.com/posts/2024/2/tech-interviews-are-the-worst/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://itfossil.com/posts/2024/2/tech-interviews-are-the-worst/</guid>
+      <description>Tech Interviews Are The Worst Link to heading What is a Tech Interview? Link to heading A Tech Interview is basically a term we use to refer to a multi-stage marathon in which a company looking for talent decides to put applicants through a series of rigorous and ultimately pointless exercises in an effort to prove that they have enough willpower to work there.
+It has absolutely nothing to do with determining how much of a fit you are or with determining how talented you are or with anything that matters to anybody with two brain cells to rub together.</description>
+    </item>
+    
+    <item>
+      <title>Intro</title>
+      <link>https://itfossil.com/posts/2024/2/intro/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://itfossil.com/posts/2024/2/intro/</guid>
+      <description>Intro Link to heading Who am I? Link to heading I&amp;rsquo;m a soon to be displaced cog in the land of Corporate IT. I have spent most of my time over the last twenty years writing web applications. I have also spent some of that time administering systems, designing systems and handling end user support. In addition I have spent time creating integrations between disparate systems.
+I have a lot of experience in IT.</description>
+    </item>
+    
+  </channel>
+</rss>
