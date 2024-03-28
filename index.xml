@@ -6,54 +6,49 @@
     <description>Recent content on Musings of an IT Fossil</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://itfossil.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 28 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://itfossil.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Dream of the Perfect Team</title>
+      <link>https://itfossil.com/posts/2024/3/the-dream-of-the-perfect-team/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/3/the-dream-of-the-perfect-team/</guid>
+      <description>So if I weren&amp;rsquo;t practicing reasonably decent op-sec (please state actors don&amp;rsquo;t take this as invitation to diminish my use of the adjective &amp;ldquo;reasonably&amp;rdquo;) you would know that I have worked at my fair share of different places over my career as a Software Developer. Over the course of this career I have worked in all kinds of different scenarios which range from being the single IT resource that does it all for the client to playing a part on a well organized SCRUM team.</description>
+    </item>
     <item>
       <title>An Ounce of Confidence is Worth a Pound of Pain</title>
       <link>https://itfossil.com/posts/2024/3/an-ounce-of-confidence-is-worth-a-pound-of-pain/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://itfossil.com/posts/2024/3/an-ounce-of-confidence-is-worth-a-pound-of-pain/</guid>
       <description>So if you follow me on Mastodon you know that I&amp;rsquo;ve been deeply engrossed in my own job search as of late. Currently despite being a fossil, I&amp;rsquo;ve got two prospects that I&amp;rsquo;m juggling. One gave me an offer yesterday and I&amp;rsquo;m hoping to get an offer from the other one today. Despite my intense distaste for tech interviews, I went through the ringer with two companies at the same time and surprisingly managed to do rather well on the technical portions.</description>
     </item>
-    
     <item>
       <title>Career Suicide Is A Compulsion</title>
       <link>https://itfossil.com/posts/2024/2/career-suicide-is-a-compulsion/</link>
       <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://itfossil.com/posts/2024/2/career-suicide-is-a-compulsion/</guid>
       <description>Thus far I haven&amp;rsquo;t really indulged myself on this new blog. Tonight that changes. The content that I have already posted has basically been a slightly less PC version of content I once posted on my actual blog (now redacted so that I can appear sane and employable) back when that was a semi-functional entity of concern. Tonight I&amp;rsquo;m going to say a whole mess of shit that would basically amount to career suicide if I posted it on a medium that could be easily traced back to my actual identity.</description>
     </item>
-    
     <item>
       <title>Performance Measurement Is A Lie</title>
       <link>https://itfossil.com/posts/2024/2/performance-measurement-is-a-lie/</link>
       <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://itfossil.com/posts/2024/2/performance-measurement-is-a-lie/</guid>
-      <description>Today I&amp;rsquo;m going to delve into why anybody and everybody who claims to have a way to measure the performance of an IT professional is basically lying. To be fair, it&amp;rsquo;s probably not their fault.
-Why Employers Need to Measure Performance Link to heading So let me start off by saying this: I understand why employers want to measure the performance of their employees. I also like having my performance measured&amp;hellip; but only in situations where the system is capable of accurately measuring performance.</description>
+      <description>Today I&amp;rsquo;m going to delve into why anybody and everybody who claims to have a way to measure the performance of an IT professional is basically lying. To be fair, it&amp;rsquo;s probably not their fault.&#xA;Why Employers Need to Measure Performance Link to heading So let me start off by saying this: I understand why employers want to measure the performance of their employees. I also like having my performance measured&amp;hellip; but only in situations where the system is capable of accurately measuring performance.</description>
     </item>
-    
     <item>
       <title>Tech Interviews Are the Worst</title>
       <link>https://itfossil.com/posts/2024/2/tech-interviews-are-the-worst/</link>
       <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://itfossil.com/posts/2024/2/tech-interviews-are-the-worst/</guid>
-      <description>Today I&amp;rsquo;m going to delve into speaking my piece on what tech interviews are, what their purpose is and their many many failings&amp;hellip;
-What is a Tech Interview? Link to heading A Tech Interview is basically a term we use to refer to a multi-stage marathon in which a company looking for talent decides to put applicants through a series of rigorous and ultimately pointless exercises in an effort to prove that they have enough willpower to work there.</description>
+      <description>Today I&amp;rsquo;m going to delve into speaking my piece on what tech interviews are, what their purpose is and their many many failings&amp;hellip;&#xA;What is a Tech Interview? Link to heading A Tech Interview is basically a term we use to refer to a multi-stage marathon in which a company looking for talent decides to put applicants through a series of rigorous and ultimately pointless exercises in an effort to prove that they have enough willpower to work there.</description>
     </item>
-    
     <item>
       <title>About</title>
       <link>https://itfossil.com/about/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://itfossil.com/about/</guid>
-      <description>Who am I? Link to heading I&amp;rsquo;m a soon to be displaced cog in the land of Corporate IT. I have spent most of my time over the last twenty years writing web applications. I have also spent some of that time administering systems, designing systems and handling end user support. In addition I have spent time creating integrations between disparate systems.
-I have a lot of experience in IT.</description>
+      <description>Who am I? Link to heading I&amp;rsquo;m a soon to be displaced cog in the land of Corporate IT. I have spent most of my time over the last twenty years writing web applications. I have also spent some of that time administering systems, designing systems and handling end user support. In addition I have spent time creating integrations between disparate systems.&#xA;I have a lot of experience in IT.</description>
     </item>
-    
   </channel>
 </rss>
