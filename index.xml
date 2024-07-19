@@ -6,8 +6,15 @@
     <description>Recent content on Musings of an IT Fossil</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://itfossil.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CrowdStrike Can Die in a Fucking Fire</title>
+      <link>https://itfossil.com/posts/2024/7/crowdstrike-can-die-in-a-fucking-fire/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/7/crowdstrike-can-die-in-a-fucking-fire/</guid>
+      <description>In case you didn&amp;rsquo;t know CrowdStrike makes anti-malware software for enterprises and they pushed out an update late last night that basically broke Windows machines running it. These machines need to be manually fixed. This is a nightmare for IT people.&#xA;Fuck CrowdStrike&#xA;The handful of those reading this blog already know this: I&amp;rsquo;m tried of watching the tech industry build things that are prone to failure. It pisses me off.</description>
+    </item>
     <item>
       <title>The Separation of Ego and Engineering</title>
       <link>https://itfossil.com/posts/2024/7/the-separation-of-ego-and-engineering/</link>
