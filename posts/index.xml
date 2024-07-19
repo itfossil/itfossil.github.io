@@ -13,7 +13,7 @@
       <link>https://itfossil.com/posts/2024/7/crowdstrike-can-die-in-a-fucking-fire/</link>
       <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://itfossil.com/posts/2024/7/crowdstrike-can-die-in-a-fucking-fire/</guid>
-      <description>In case you didn&amp;rsquo;t know CrowdStrike makes anti-malware software for enterprises and they pushed out an update late last night that basically broke Windows machines running it. These machines need to be manually fixed. This is a nightmare for IT people.&#xA;Fuck CrowdStrike&#xA;The handful of those reading this blog already know this: I&amp;rsquo;m tried of watching the tech industry build things that are prone to failure. It pisses me off.</description>
+      <description>In case you didn&amp;rsquo;t know CrowdStrike makes anti-malware software for enterprises and they pushed out an update late last night that basically broke Windows machines running it. These machines need to be manually fixed via a process that involves either booting Windows into recovery or safe mode and then manually deleting the offending driver file. If your drive is encrypted this is made far more difficult by you having to manually key in your Bitlocker recovery key, assuming you even have access to it at all.</description>
     </item>
     <item>
       <title>The Separation of Ego and Engineering</title>
