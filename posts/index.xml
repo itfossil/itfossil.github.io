@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Musings of an IT Fossil</title>
+    <link>https://itfossil.com/posts/</link>
+    <description>Recent content in Posts on Musings of an IT Fossil</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://itfossil.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>That&#39;s the Sound of Devs Working on the Chain Gang</title>
+      <link>https://itfossil.com/posts/2024/8/thats-the-sound-of-devs-working-on-the-chain-gang/</link>
+      <pubDate>Fri, 16 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/8/thats-the-sound-of-devs-working-on-the-chain-gang/</guid>
+      <description>Are you a manager desperate to cover up their own lack of productivity and general uselessness by implementing a system that will allow you to constantly lament your underlings apparent lack of productivity? Well if you are managing Software Engineers, I have some really good news to share with you today. Some people over at Microsoft Research, Github and the University of Victoria have devised the answer to all of your problems.</description>
+    </item>
+    <item>
+      <title>Our Users Deserve a Bill of Rights</title>
+      <link>https://itfossil.com/posts/2024/7/our-users-deserve-a-bill-rights/</link>
+      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/7/our-users-deserve-a-bill-rights/</guid>
+      <description>I think the one thing that really ticks me off about this industry more than any other is the fact that we constantly treat our end users very poorly. Now those of you reading this are likely of one of two minds: Some amount of you think this is a very true statement and the rest of you think its complete and utter bollocks. Which group are you in?&#xA;Let me start off by explaining why I&amp;rsquo;m part of the former group.</description>
+    </item>
+    <item>
+      <title>Optimizing All the Wrong Things</title>
+      <link>https://itfossil.com/posts/2024/7/optimizing-all-the-wrong-things/</link>
+      <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/7/optimizing-all-the-wrong-things/</guid>
+      <description>Over the years I&amp;rsquo;ve oscillated between reading quite a bit and reading not much at all. Lately I&amp;rsquo;ve been trying to read a lot more and the book I&amp;rsquo;m currently reading is called &amp;ldquo;System Error: Where Big Tech Went Wrong and How We Can Reboot&amp;rdquo;. Well while escorting my wife to a doctor&amp;rsquo;s appointment this morning I read a chapter that I found particularly striking as it spends most of it&amp;rsquo;s time dissecting this famous Donald Knuth quote:</description>
+    </item>
+    <item>
+      <title>CrowdStrike can Die in a Fucking Fire</title>
+      <link>https://itfossil.com/posts/2024/7/crowdstrike-can-die-in-a-fucking-fire/</link>
+      <pubDate>Fri, 19 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/7/crowdstrike-can-die-in-a-fucking-fire/</guid>
+      <description>In case you didn&amp;rsquo;t know CrowdStrike makes anti-malware software for enterprises and they pushed out an update late last night that basically broke Windows machines running it. These machines need to be manually fixed via a process that involves either booting Windows into recovery or safe mode and then manually deleting the offending driver file. If your drive is encrypted this is made far more difficult by you having to manually key in your Bitlocker recovery key, assuming you even have access to it at all.</description>
+    </item>
+    <item>
+      <title>The Separation of Ego and Engineering</title>
+      <link>https://itfossil.com/posts/2024/7/the-separation-of-ego-and-engineering/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/7/the-separation-of-ego-and-engineering/</guid>
+      <description>Up front I&amp;rsquo;m going to say this: It&amp;rsquo;s really weird sitting down to write this blog post less than a day after former president Trump just survived an attempted assassination. While this post has been forming in my head over the last few days, give or take, it still feels weird to write about something that isn&amp;rsquo;t exactly at the top of my mind at the moment. One thing I&amp;rsquo;m sure of is that not only will the consequences of yesterday&amp;rsquo;s failed assassination be far reaching but that there will be plenty of time for content creators such as myself to more fully consider what those consequences are.</description>
+    </item>
+    <item>
+      <title>America We Grieve Your Untimely Demise</title>
+      <link>https://itfossil.com/posts/2024/7/america-we-grieve-your-untimely-passing/</link>
+      <pubDate>Mon, 01 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/7/america-we-grieve-your-untimely-passing/</guid>
+      <description>If you are at all keeping up with the affairs of the world, then today you heard just as I did that the Supreme Court of the United States overwhelmingly granted immunity to the President of the United States for core and official acts while happily providing no framework for what constitutes an official act. I wish this was a joke or that I was not writing these words, but alas I&amp;rsquo;m not quite that big of a jerk and this actually happened.</description>
+    </item>
+    <item>
+      <title>Proprietary Software is a Dead End</title>
+      <link>https://itfossil.com/posts/2024/6/proprietary-software-is-a-dead-end/</link>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/6/proprietary-software-is-a-dead-end/</guid>
+      <description>Over the years I&amp;rsquo;ve written a lot of blog posts that have danced around the argument I am about to make and the reason for that is very simple: I write proprietary software for a living. Expressing that opinion in a forum directly associated with my professional identity would essentially be career suicide.&#xA;So why am I doing it now? Well that&amp;rsquo;s the beauty of having an anonymous blog platform of course.</description>
+    </item>
+    <item>
+      <title>We are Snake Oil Sales People</title>
+      <link>https://itfossil.com/posts/2024/6/we-are-snake-oil-salespeople/</link>
+      <pubDate>Tue, 04 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/6/we-are-snake-oil-salespeople/</guid>
+      <description>Disclaimer: Today&amp;rsquo;s post is going to be a good ole fashioned rant. The tech industry has lost its mind. If this is where you are hearing it for the first time, I need you to know that I won&amp;rsquo;t apologize for being the one to tell you. You were bound to find out sooner or later. What do I mean by this? Well pretty much everything is AI now. Nothing else matters.</description>
+    </item>
+    <item>
+      <title>Heart Shaped Promise</title>
+      <link>https://itfossil.com/posts/2024/5/heart-shaped-promise/</link>
+      <pubDate>Sun, 19 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/5/heart-shaped-promise/</guid>
+      <description>This is the final leg of my career as a software developer. I know that because I made a promise to myself. This is the kind of promise that I wouldn&amp;rsquo;t have dared to make even a few short years ago. This revelation will probably surprise more than a few of you, especially in light of all the kvetching I&amp;rsquo;ve been doing about my career for such a long while.</description>
+    </item>
+    <item>
+      <title>Deja Vu</title>
+      <link>https://itfossil.com/posts/2024/5/deja-vu/</link>
+      <pubDate>Sun, 05 May 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/5/deja-vu/</guid>
+      <description>So between the end of my previous job and the beginning of my current job I took a few weeks off. Let&amp;rsquo;s be clear: by &amp;ldquo;off&amp;rdquo; I mean mostly stoned and chilling my ass out. My time off was refreshing and gave me an opportunity to not worry about anybody else&amp;rsquo;s tech / shit for two whole weeks. It&amp;rsquo;s been forever since I&amp;rsquo;ve had the chance to do that and I strongly urge any of you who have the opportunity and means to do it.</description>
+    </item>
+    <item>
+      <title>People are People</title>
+      <link>https://itfossil.com/posts/2024/4/people-are-people/</link>
+      <pubDate>Sun, 07 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/4/people-are-people/</guid>
+      <description>So here in my neck of the woods, its a beautiful Sunday morning. I&amp;rsquo;m sitting on my deck watching the remaining nub of the Black and Mild I have almost finished smoking smoulder into less than nothing. There are still a few more puffs to be had there, but in relatively short order our brief affair will end when this little baby cigar ends up being snuffed out of existence.</description>
+    </item>
+    <item>
+      <title>The Dream of the Perfect Team</title>
+      <link>https://itfossil.com/posts/2024/3/the-dream-of-the-perfect-team/</link>
+      <pubDate>Thu, 28 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/3/the-dream-of-the-perfect-team/</guid>
+      <description>So if I weren&amp;rsquo;t practicing reasonably decent op-sec (please state actors don&amp;rsquo;t take this as invitation to diminish my use of the adjective &amp;ldquo;reasonably&amp;rdquo;) you would know that I have worked at my fair share of different places over my career as a Software Developer. Over the course of this career I have worked in all kinds of different scenarios which range from being the single IT resource that does it all for the client to playing a part on a well organized SCRUM team.</description>
+    </item>
+    <item>
+      <title>An Ounce of Confidence is Worth a Pound of Pain</title>
+      <link>https://itfossil.com/posts/2024/3/an-ounce-of-confidence-is-worth-a-pound-of-pain/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/3/an-ounce-of-confidence-is-worth-a-pound-of-pain/</guid>
+      <description>So if you follow me on Mastodon you know that I&amp;rsquo;ve been deeply engrossed in my own job search as of late. Currently despite being a fossil, I&amp;rsquo;ve got two prospects that I&amp;rsquo;m juggling. One gave me an offer yesterday and I&amp;rsquo;m hoping to get an offer from the other one today. Despite my intense distaste for tech interviews, I went through the ringer with two companies at the same time and surprisingly managed to do rather well on the technical portions.</description>
+    </item>
+    <item>
+      <title>Career Suicide Is A Compulsion</title>
+      <link>https://itfossil.com/posts/2024/2/career-suicide-is-a-compulsion/</link>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/2/career-suicide-is-a-compulsion/</guid>
+      <description>Thus far I haven&amp;rsquo;t really indulged myself on this new blog. Tonight that changes. The content that I have already posted has basically been a slightly less PC version of content I once posted on my actual blog (now redacted so that I can appear sane and employable) back when that was a semi-functional entity of concern. Tonight I&amp;rsquo;m going to say a whole mess of shit that would basically amount to career suicide if I posted it on a medium that could be easily traced back to my actual identity.</description>
+    </item>
+    <item>
+      <title>Performance Measurement Is A Lie</title>
+      <link>https://itfossil.com/posts/2024/2/performance-measurement-is-a-lie/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/2/performance-measurement-is-a-lie/</guid>
+      <description>Today I&amp;rsquo;m going to delve into why anybody and everybody who claims to have a way to measure the performance of an IT professional is basically lying. To be fair, it&amp;rsquo;s probably not their fault.&#xA;Why Employers Need to Measure Performance Link to heading So let me start off by saying this: I understand why employers want to measure the performance of their employees. I also like having my performance measured&amp;hellip; but only in situations where the system is capable of accurately measuring performance.</description>
+    </item>
+    <item>
+      <title>Tech Interviews Are the Worst</title>
+      <link>https://itfossil.com/posts/2024/2/tech-interviews-are-the-worst/</link>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/2/tech-interviews-are-the-worst/</guid>
+      <description>Today I&amp;rsquo;m going to delve into speaking my piece on what tech interviews are, what their purpose is and their many many failings&amp;hellip;&#xA;What is a Tech Interview? Link to heading A Tech Interview is basically a term we use to refer to a multi-stage marathon in which a company looking for talent decides to put applicants through a series of rigorous and ultimately pointless exercises in an effort to prove that they have enough willpower to work there.</description>
+    </item>
+  </channel>
+</rss>

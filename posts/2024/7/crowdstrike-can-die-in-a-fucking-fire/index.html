@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  CrowdStrike can Die in a Fucking Fire · Musings of an IT Fossil
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="IT Fossil">
+<meta name="description" content="In case you didn&rsquo;t know CrowdStrike makes anti-malware software for enterprises and they pushed out an update late last night that basically broke Windows machines running it. These machines need to be manually fixed via a process that involves either booting Windows into recovery or safe mode and then manually deleting the offending driver file. If your drive is encrypted this is made far more difficult by you having to manually key in your Bitlocker recovery key, assuming you even have access to it at all.">
+<meta name="keywords" content="">
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="CrowdStrike can Die in a Fucking Fire"/>
+<meta name="twitter:description" content="In case you didn&rsquo;t know CrowdStrike makes anti-malware software for enterprises and they pushed out an update late last night that basically broke Windows machines running it. These machines need to be manually fixed via a process that involves either booting Windows into recovery or safe mode and then manually deleting the offending driver file. If your drive is encrypted this is made far more difficult by you having to manually key in your Bitlocker recovery key, assuming you even have access to it at all."/>
+
+<meta property="og:title" content="CrowdStrike can Die in a Fucking Fire" />
+<meta property="og:description" content="In case you didn&rsquo;t know CrowdStrike makes anti-malware software for enterprises and they pushed out an update late last night that basically broke Windows machines running it. These machines need to be manually fixed via a process that involves either booting Windows into recovery or safe mode and then manually deleting the offending driver file. If your drive is encrypted this is made far more difficult by you having to manually key in your Bitlocker recovery key, assuming you even have access to it at all." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://itfossil.com/posts/2024/7/crowdstrike-can-die-in-a-fucking-fire/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-07-19T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-07-19T00:00:00+00:00" />
+
+
+
+
+
+<link rel="canonical" href="https://itfossil.com/posts/2024/7/crowdstrike-can-die-in-a-fucking-fire/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.38c4552ac40f9ae3408bad40358f654ebd8804412fe74ed56f2d6c8a7af82dd3.css" integrity="sha256-OMRVKsQPmuNAi61ANY9lTr2IBEEv507Vby1sinr4LdM=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/shortcodes/centered.min.3daa9ea3f35824c297c75e71210f71e301b7643b37e39895fd2d3b128ae65948.css" integrity="sha256-Paqeo/NYJMKXx15xIQ9x4wG3ZDs345iV/S07EormWUg=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://itfossil.com">
+      Musings of an IT Fossil
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Posts</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://itfossil.com/posts/2024/7/crowdstrike-can-die-in-a-fucking-fire/">
+              CrowdStrike can Die in a Fucking Fire
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2024-07-19T00:00:00Z">
+                July 19, 2024
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              5-minute read
+            </span>
+          </div>
+          
+          
+          
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>In case you didn&rsquo;t know CrowdStrike makes anti-malware software for enterprises and they pushed out an update late last night that basically broke Windows machines running it.  These machines need to be manually fixed via a process that involves either booting Windows into recovery or safe mode and then manually deleting the offending driver file.  If your drive is encrypted this is made far more difficult by you having to manually key in your Bitlocker recovery key, assuming you even have access to it at all.  This is a nightmare for end users as well as IT people.</p>
+<p><a href="https://arstechnica.com/information-technology/2024/07/major-outages-at-crowdstrike-microsoft-leave-the-world-with-bsods-and-confusion/"  class="external-link" target="_blank" rel="noopener">Fuck CrowdStrike</a></p>
+<p>The handful of those reading this blog already know this: I&rsquo;m tried of watching the tech industry build things that are prone to failure.  It pisses me off.  It should piss everybody off and getting the word out is one of the reasons I started this blog.  This blog is anonymous because I can&rsquo;t speak freely and expect to keep my career from spontaneously combusting.  That having been said, at my company all of our environments went down because all of our Windows machines are running this shitty software.  Prod is just now getting back online after IT busting its ass for six plus hours to fix hundreds of servers.  A lot of our Windows laptops (mine included) also went down.  I managed to fix mine because I was one of the lucky ones whose Bitlocker recovery key was stored in Azure like it was supposed to be.</p>
+<p>It&rsquo;s not just my company.  Airlines, Hospitals and 911 call centers are down.  People&rsquo;s lives are on the fucking line and big tech has absolutely completely failed them today.  People will die because CrowdStrike fucked up.  People will die because the orgs that use Crowdstrike didn&rsquo;t see a problem with using the exact same thing that everybody else uses.</p>
+<p>This is a fucking disaster.  It was also totally avoidable.  Will the industry learn it&rsquo;s lesson?  Probably not.</p>
+<p>There are so many terrible trends in this industry that are part of the problem here.  The short list is:</p>
+<ol>
+<li>
+<p><strong>Windows</strong>: For the love of God.  If your purchased software relies on it, get new software.  If your custom software relies on it, port it.  Windows is a dying platform and this incident will only serve to hasten it&rsquo;s demise.</p>
+</li>
+<li>
+<p><strong>Anti-Virus / Malware</strong>: It&rsquo;s long past time we figured out that software like this is less useful than tits on a boar.  It&rsquo;s always a day late and a dollar short as this shit is basically defective by design.  In addition, the amount of trust you have to give this software is generally rewarded with shittier performance and decreased stability.</p>
+</li>
+<li>
+<p><strong>Copy Cats</strong>: Most orgs are using a lot of the same shit as everybody else.  It doesn&rsquo;t matter what product we are talking about.  It could be software like Adobe CS, CrowdStrike, Windows, Microsoft Office or whatever else you can think of.  It could also be cloud services like AWS, Azure and Google Cloud.  This industry is infected with the delusion that doing what everybody else does is the safest possible option.  We are building fallible things that depend on other unaccountable entities to function and because we are largely using the same things, we are setting ourselves and our customers up for EXACTLY THIS KIND OF FAILURE.</p>
+</li>
+</ol>
+<p>This can only end poorly.  As for CrowdStrike itself, the company should go straight to zero.  Sadly <a href="https://www.cnbc.com/quotes/CRWD"  class="external-link" target="_blank" rel="noopener">their stock is only down 10%</a> at the time of this writing.  That in and of itself is a travesty.  If I was holding CRWD right now I would&rsquo;ve already taken whatever action I needed to immediately divest myself of it.</p>
+<p>This might be the biggest IT outage of all time and it&rsquo;s their fault.  If that company&rsquo;s stock doesn&rsquo;t go to zero, victims (yes we are all victims of CrowdStrike&rsquo;s malfeasance) don&rsquo;t attempt to sue them out of existence and orgs don&rsquo;t immediately decide to terminate their contracts with Crowdstrike and remove their software then that basically means that the feedback mechanism in this industry is completely broken.  This shouldn&rsquo;t come as a surprise to anybody who is regularly reading this blog because you all already know the score.</p>
+<p>But for anybody who has shown up here for the first time ever, let me say it loud and clear:  The tech industry is broken and it is breaking the back of the world.  It lies and cheats its customers.  It wastes our limited natural resources.  It creates systems that are inherently fallible and attempts to just brush off the inevitable failures that result from employing defective design practices.</p>
+<p>Perhaps the real takeaway is that instead of increasing complexity to hedge against the ever increasing level of complexity in tech, we should instead focus on building less complex mechanisms with fewer interdependencies that can survive crisis level incidents such as this.  That was the original point of the internet (aka <a href="https://www.britannica.com/topic/ARPANET"  class="external-link" target="_blank" rel="noopener">ARPANet</a>) after all.  To provide the United States Department of Defense with a decentralized network that could remain functional in the event of a nuclear attack taking out other parts of that network.</p>
+<p>Finally to the IT people out there working feverishly to get shit back online:  You got my sympathy.  Cause this shit sucks.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2024
+     IT Fossil 
+    ·
+    
+      Licensed under <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.en">CC0 1.0 Universal</a>
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

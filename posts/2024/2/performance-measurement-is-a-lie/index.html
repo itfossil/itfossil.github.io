@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Performance Measurement Is A Lie · Musings of an IT Fossil
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="IT Fossil">
+<meta name="description" content="Today I&rsquo;m going to delve into why anybody and everybody who claims to have a way to measure the performance of an IT professional is basically lying. To be fair, it&rsquo;s probably not their fault.
+Why Employers Need to Measure Performance Link to heading So let me start off by saying this: I understand why employers want to measure the performance of their employees. I also like having my performance measured&hellip; but only in situations where the system is capable of accurately measuring performance.">
+<meta name="keywords" content="">
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Performance Measurement Is A Lie"/>
+<meta name="twitter:description" content="Today I&rsquo;m going to delve into why anybody and everybody who claims to have a way to measure the performance of an IT professional is basically lying. To be fair, it&rsquo;s probably not their fault.
+Why Employers Need to Measure Performance Link to heading So let me start off by saying this: I understand why employers want to measure the performance of their employees. I also like having my performance measured&hellip; but only in situations where the system is capable of accurately measuring performance."/>
+
+<meta property="og:title" content="Performance Measurement Is A Lie" />
+<meta property="og:description" content="Today I&rsquo;m going to delve into why anybody and everybody who claims to have a way to measure the performance of an IT professional is basically lying. To be fair, it&rsquo;s probably not their fault.
+Why Employers Need to Measure Performance Link to heading So let me start off by saying this: I understand why employers want to measure the performance of their employees. I also like having my performance measured&hellip; but only in situations where the system is capable of accurately measuring performance." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://itfossil.com/posts/2024/2/performance-measurement-is-a-lie/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-02-26T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-02-26T00:00:00+00:00" />
+
+
+
+
+
+<link rel="canonical" href="https://itfossil.com/posts/2024/2/performance-measurement-is-a-lie/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.38c4552ac40f9ae3408bad40358f654ebd8804412fe74ed56f2d6c8a7af82dd3.css" integrity="sha256-OMRVKsQPmuNAi61ANY9lTr2IBEEv507Vby1sinr4LdM=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/shortcodes/centered.min.3daa9ea3f35824c297c75e71210f71e301b7643b37e39895fd2d3b128ae65948.css" integrity="sha256-Paqeo/NYJMKXx15xIQ9x4wG3ZDs345iV/S07EormWUg=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://itfossil.com">
+      Musings of an IT Fossil
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Posts</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://itfossil.com/posts/2024/2/performance-measurement-is-a-lie/">
+              Performance Measurement Is A Lie
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2024-02-26T00:00:00Z">
+                February 26, 2024
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              8-minute read
+            </span>
+          </div>
+          
+          
+          
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>Today I&rsquo;m going to delve into why anybody and everybody who claims to have a way to measure the performance of an IT professional is basically lying.  To be fair, it&rsquo;s probably not their fault.</p>
+<h3 id="why-employers-need-to-measure-performance">
+  Why Employers Need to Measure Performance
+  <a class="heading-link" href="#why-employers-need-to-measure-performance">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>So let me start off by saying this:  I understand why employers want to measure the performance of their employees.  I also like having my performance measured&hellip; but only in situations where the system is capable of accurately measuring performance.  The purpose of this post isn&rsquo;t to rail against employers for attempting to measure the performance of their IT staff but rather to skewer them for adopting half-ass methodologies that do not even come close to accomplishing that.</p>
+<p>The long and short of why employers need to measure performance is that it is in their best interest to be able to identify their high performers, their low performers and determine who occupies the in-between.  I firmly believe that employees should also take a strong and proactive interest in understanding how their performance will be measured because ultimately that is the standard against which they will be judged.  That standard determines what raises you&rsquo;ll get, promotion opportunities you&rsquo;ll receive and ultimately whether or not you survive your employer&rsquo;s next culling.</p>
+<h3 id="how-should-it-performance-be-measured">
+  How Should IT Performance Be Measured?
+  <a class="heading-link" href="#how-should-it-performance-be-measured">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>I don&rsquo;t have the slightest fucking clue and neither do you.  The only good news here is that the employers don&rsquo;t know either so we are all in good company.  Oh wait&hellip; I guess that&rsquo;s actually bad news.</p>
+<p>The primary reason is that IT people basically live within a world composed of abstract systems.  We enforce, create, modify and in some cases bend the rules that govern the behavior within these systems.  However the issue here is that because we spend our days tinkering with the more abstract facets of the organization we work for, we tend to acquire a very good understanding of these abstractions and what the real world limits are when it comes to bending and / or ignoring the rules setup around these abstractions.</p>
+<p>This is what we do for a living.  So naturally when we are presented with an abstract system that defines how our performance will be measured, our IT brains go to work and figure out what the most efficient way to interact with that system.  Of course that&rsquo;s just a fancy way of saying that we&rsquo;ll figure out how to game the system.  We don&rsquo;t do this because we are bad people.  We do this because being good at our job requires us to do it.</p>
+<p>Let&rsquo;s talk in terms of a Software Engineer:  How should their performance be measured?  Let&rsquo;s attack a few of the more obvious options:</p>
+<ol>
+<li>
+<p>Commit Count</p>
+<p>Yeah this doesn&rsquo;t work primarily because the number of commits it takes for an engineer to add a feature or fix a bug has nothing to do with the complexity of the issue or the value of the work.  In fact the number of actual commits it takes to do anything says more about the style of the engineer than anything else.  In reality, an engineer can easily create more or less commits by simply changing their behavior around commits while still accomplishing the exact same thing.</p>
+</li>
+<li>
+<p>Lines of Code</p>
+<p>Yet another metric that&rsquo;s easy to game because as with the number of commits, the lines of code is basically more about the style of the engineer than anything else.  Work can generally be refactored to occupy more or less lines of code and often is.</p>
+</li>
+<li>
+<p>Tickets Closed</p>
+<p>This assumes that all tickets are created equally.  They aren&rsquo;t.</p>
+</li>
+<li>
+<p>Sum of Story Points associated with closed tickets</p>
+<p>Story points are meaningless so metrics built around them are by definition also meaningless.</p>
+</li>
+<li>
+<p>Bugs Created</p>
+<p>So this one is a bit different as much like in golf, lower numbers make for a better score.  Nevertheless the risk in a system like this is that you end up creating a disincentive around tackling complex features and changes as those would heighten the risk of creating bugs.</p>
+<p>In addition, it also follows that the less code you write, the less bugs you create.  It doesn&rsquo;t take a rocket scientist to see how that ends.</p>
+</li>
+</ol>
+<p>There are other possibilities we could tackle, but those are the most obvious ones that tend to come up at the start of any performance related discussion in Software Engineering.  Measuring the performance of a Software Engineer is very difficult.  When I work with individual Engineers I tend to know which ones are reliable and competent and which ones will likely create more problems than they&rsquo;ll solve.</p>
+<p>But that&rsquo;s the thing.  My gut feeling is good enough for me as a professional to know which engineers are good and which ones are not, but you can&rsquo;t build a measurement system on &ldquo;gut&rdquo; feelings.  That doesn&rsquo;t scale and it doesn&rsquo;t result in any kind of decent accountability on the part of the people measuring the performance and developing performance reviews based on those measurements.</p>
+<p>So this leads us to the most touchy part of this discussion:</p>
+<h3 id="how-is-it-performance-currently-measured">
+  How is IT Performance Currently Measured?
+  <a class="heading-link" href="#how-is-it-performance-currently-measured">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>In a word: Poorly.</p>
+<p>I have never worked at a place that has managed to get this right, which is a big part of the reason that I don&rsquo;t have many good ideas around how it should be done.  Typically as a mid to high level performer (once upon a time a high level performer, but probably more mid level nowadays if I am being completely honest) I score well on the technical aspects of performance reviews.  Over time it has been my personal experience that reviewers tend to even that out by dishing out negative feedback relating to the non-technical aspects.</p>
+<p>Most of this negative feedback is around my soft skills, or lack thereof.  That&rsquo;s something that I have been trying to work on for a very long time, but progress has been slow.  That&rsquo;s not to say that some of this negative feedback isn&rsquo;t legitimate, but that once you inject these kinds of things into a performance review, it basically demands the inclusion of gut feelings and allows reviewers to place them on a pedestal of sorts.  For as hard as it is to measure IT from a technical aspect, its infinitely harder to measure soft skills.</p>
+<p>At my current employer the situation is even worse.  They were basically looking for a reason to keep from giving raises so they concocted reasons to make that happen.  While I did get a pittance of a raise, it didn&rsquo;t even match inflation over the course of 2023.  In addition they also &ldquo;unofficially&rdquo; culled a bonus program in the beginning ot 2024 which basically augmented my income by the amount of the raise they gave me.</p>
+<p>So once you account for inflation, I took a hit whereas from their perspective they can backhandedly claim they gave me a rise.  Given the level of frustration I experience grappling with the raw incompetence exhibited by my current employer on a daily basis, that basically just made a bad situation worse.</p>
+<p>It&rsquo;s now at the point where I&rsquo;m willing to take a pay cut just to get out of here.  Of course even that approach hasn&rsquo;t yielded great results for me.</p>
+<p>So yeah this topic matters.  Doubly so to me at this particular point of my career.</p>
+<h3 id="so-what-can-we-do-about-this">
+  So What Can We Do About This?
+  <a class="heading-link" href="#so-what-can-we-do-about-this">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>I have no idea.  Since I doubt I&rsquo;ll be working as a Software Engineer for much longer, unless I happen to get lucky and stumble on a position with a reputable place where I will be able to bookend my multi-decade career and get my post-IT career affairs in order, this isn&rsquo;t a problem that I really need to expend my dwindling mental energy to focus on solving.  In addition my lack of soft skills basically guarantees that I won&rsquo;t be offered or accepting any management related positions anytime soon.</p>
+<p>But since most of the people reading this are presumably in IT, my advice is simple:  Keep thinking about the problem.  Keep grinding away at it.  Somebody will someday figure this out.  Meanwhile MBAs will make the situation worse by asking ChatGPT for advice and blindly following whatever semi-randomized idiocy it sputters out as part of its response.</p>
+<p>The irony of this situation is that it while it would be in the absolute best interests of the employers to figure this out, it is also in our best interests to help them figure it out.</p>
+<h3 id="conclusion">
+  Conclusion
+  <a class="heading-link" href="#conclusion">
+    <i class="fa-solid fa-link" aria-hidden="true" title="Link to heading"></i>
+    <span class="sr-only">Link to heading</span>
+  </a>
+</h3>
+<p>I am glad that concerns of this nature won&rsquo;t be my problem for much longer.  But with that being said, IT is hardly the only industry that suffers from problems like these and I can&rsquo;t imagine other professionals in other areas aren&rsquo;t also faced with similar issues.</p>
+<p>Perhaps the entire idea of performance measurement needs to be revisited as a whole.  I believe an ex-coworker of mine once referred to a system of working that starts with changes like this using the term &ldquo;Developer Anarchy&rdquo;.  I didn&rsquo;t agree with the idea then and I don&rsquo;t now&hellip; but I won&rsquo;t lie.</p>
+<p>No more performance reviews sounds pretty tempting just so long as our compensation is adjusted on an annual basis.  But I suppose the whole capital versus labor constraint of our current economic system precludes adopting a solution of that sort, doesn&rsquo;t it?</p>
+<p>Damn shame, that.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2024
+     IT Fossil 
+    ·
+    
+      Licensed under <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.en">CC0 1.0 Universal</a>
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>

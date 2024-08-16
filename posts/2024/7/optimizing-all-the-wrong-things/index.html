@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+  Optimizing All the Wrong Things · Musings of an IT Fossil
+</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+
+
+
+
+<meta name="author" content="IT Fossil">
+<meta name="description" content="Over the years I&rsquo;ve oscillated between reading quite a bit and reading not much at all. Lately I&rsquo;ve been trying to read a lot more and the book I&rsquo;m currently reading is called &ldquo;System Error: Where Big Tech Went Wrong and How We Can Reboot&rdquo;. Well while escorting my wife to a doctor&rsquo;s appointment this morning I read a chapter that I found particularly striking as it spends most of it&rsquo;s time dissecting this famous Donald Knuth quote:">
+<meta name="keywords" content="">
+
+<meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Optimizing All the Wrong Things"/>
+<meta name="twitter:description" content="Over the years I&rsquo;ve oscillated between reading quite a bit and reading not much at all. Lately I&rsquo;ve been trying to read a lot more and the book I&rsquo;m currently reading is called &ldquo;System Error: Where Big Tech Went Wrong and How We Can Reboot&rdquo;. Well while escorting my wife to a doctor&rsquo;s appointment this morning I read a chapter that I found particularly striking as it spends most of it&rsquo;s time dissecting this famous Donald Knuth quote:"/>
+
+<meta property="og:title" content="Optimizing All the Wrong Things" />
+<meta property="og:description" content="Over the years I&rsquo;ve oscillated between reading quite a bit and reading not much at all. Lately I&rsquo;ve been trying to read a lot more and the book I&rsquo;m currently reading is called &ldquo;System Error: Where Big Tech Went Wrong and How We Can Reboot&rdquo;. Well while escorting my wife to a doctor&rsquo;s appointment this morning I read a chapter that I found particularly striking as it spends most of it&rsquo;s time dissecting this famous Donald Knuth quote:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://itfossil.com/posts/2024/7/optimizing-all-the-wrong-things/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-07-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2024-07-29T00:00:00+00:00" />
+
+
+
+
+
+<link rel="canonical" href="https://itfossil.com/posts/2024/7/optimizing-all-the-wrong-things/">
+
+
+<link rel="preload" href="/fonts/fa-brands-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
+
+
+  
+  
+  <link rel="stylesheet" href="/css/coder.min.38c4552ac40f9ae3408bad40358f654ebd8804412fe74ed56f2d6c8a7af82dd3.css" integrity="sha256-OMRVKsQPmuNAi61ANY9lTr2IBEEv507Vby1sinr4LdM=" crossorigin="anonymous" media="screen" />
+
+
+
+
+
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/coder-dark.min.a00e6364bacbc8266ad1cc81230774a1397198f8cfb7bcba29b7d6fcb54ce57f.css" integrity="sha256-oA5jZLrLyCZq0cyBIwd0oTlxmPjPt7y6KbfW/LVM5X8=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+ 
+  
+    
+    <link rel="stylesheet" href="/css/shortcodes/centered.min.3daa9ea3f35824c297c75e71210f71e301b7643b37e39895fd2d3b128ae65948.css" integrity="sha256-Paqeo/NYJMKXx15xIQ9x4wG3ZDs345iV/S07EormWUg=" crossorigin="anonymous" media="screen" />
+  
+
+
+
+
+
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" sizes="any">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+
+
+
+
+
+
+</head>
+
+
+
+
+
+
+<body class="preload-transitions colorscheme-auto">
+  
+<div class="float-container">
+    <a id="dark-mode-toggle" class="colorscheme-toggle">
+        <i class="fa-solid fa-adjust fa-fw" aria-hidden="true"></i>
+    </a>
+</div>
+
+
+  <main class="wrapper">
+    <nav class="navigation">
+  <section class="container">
+    
+    <a class="navigation-title" href="https://itfossil.com">
+      Musings of an IT Fossil
+    </a>
+    
+    
+      <input type="checkbox" id="menu-toggle" />
+      <label class="menu-button float-right" for="menu-toggle">
+        <i class="fa-solid fa-bars fa-fw" aria-hidden="true"></i>
+      </label>
+      <ul class="navigation-list">
+        
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/about/">About</a>
+            </li>
+          
+            <li class="navigation-item">
+              <a class="navigation-link " href="/posts/">Posts</a>
+            </li>
+          
+        
+        
+      </ul>
+    
+  </section>
+</nav>
+
+
+    <div class="content">
+      
+  <section class="container post">
+    <article>
+      <header>
+        <div class="post-title">
+          <h1 class="title">
+            <a class="title-link" href="https://itfossil.com/posts/2024/7/optimizing-all-the-wrong-things/">
+              Optimizing All the Wrong Things
+            </a>
+          </h1>
+        </div>
+        <div class="post-meta">
+          <div class="date">
+            <span class="posted-on">
+              <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+              <time datetime="2024-07-29T00:00:00Z">
+                July 29, 2024
+              </time>
+            </span>
+            <span class="reading-time">
+              <i class="fa-solid fa-clock" aria-hidden="true"></i>
+              8-minute read
+            </span>
+          </div>
+          
+          
+          
+        </div>
+      </header>
+
+      <div class="post-content">
+        
+        <p>Over the years I&rsquo;ve oscillated between reading quite a bit and reading not much at all.  Lately I&rsquo;ve been trying to read a lot more and the book I&rsquo;m currently reading is called <a href="https://www.kobo.com/us/en/ebook/system-error-7"  class="external-link" target="_blank" rel="noopener">&ldquo;System Error: Where Big Tech Went Wrong and How We Can Reboot&rdquo;</a>.  Well while escorting my wife to a doctor&rsquo;s appointment this morning I read a chapter that I found particularly striking as it spends most of it&rsquo;s time dissecting this famous Donald Knuth quote:</p>
+<blockquote>
+<p>&ldquo;Premature optimization is the root of all evil (or at least most of it) in programming&rdquo;</p>
+</blockquote>
+<p>This is a statement that is widely regarded as being an unassailable truth in our industry.  Anybody who has been slinging code for any amount of time has likely heard this truism repeated to them time and time again either while having their code reviewed or while reviewing the code of others.  But here is the twist: Does it actually mean what we think it means?</p>
+<p>We collectively interpret this quote as a caution against spending too much time up front trying to write the most efficient code possible.  This makes a lot of sense once you get enough experience with software development as you soon learn nobody involved in this process has any goddamn clue what it is they are doing.  This of course is why it takes at least ten thousand iterations before we produce something that actually comes close to either (a) solving the customers problem or (b) spending enough of their time and / or money that they just find some way to live with it.</p>
+<p>So great, blog post over, right?  Not quite.  The chapter goes on to dissect this a bit more and manages to turn it on it&rsquo;s head:</p>
+<blockquote>
+<p>For Knuth, the time and place to be efficient is when you have figured out what is <em>worth</em> making efficient by analyzing the effects of efficiency at a higher level.</p>
+</blockquote>
+<p>But that&rsquo;s not really the point the chapter is trying to make.  Rather as it continues on, it follows up with this thought:</p>
+<blockquote>
+<p>It&rsquo;s worth emphasizing that whoever makes the choice of what to optimize is effectively deciding what problems are worth solving.</p>
+</blockquote>
+<p>The point being that as technologists we wield incredible power because what we choose to spend our time on, or rather what the rich assholes above us decide that we should spend our time on, directly influences the fates and fortunes of so many around us whether we choose to acknowledge that or not.</p>
+<p>By mere coincidence I started re-watching the classic sci-fi series &ldquo;Firefly&rdquo; over the last weekend and last night I watched the episode, &ldquo;The Train Job&rdquo;.  The basic gist of the episode is the crew of Serenity takes a job to rob a train of some its payload but as with all plans, things go a bit awry and two of crew are forced to stay on the train until it reaches its destination while allowing their cohort to escape with the goods.  While being questioned by the sheriff at the destination they find out that the stolen goods in question was rare but highly valued medication for the people in the town who were clearly suffering without it.  Once they realize what happened, they decide to return the medicine to the town knowing that it will put them on the shit list of the crime lord who hired them to do the job.</p>
+<p>To me these things directly tie together.  In tech we have fallen into the terrible habit of adopting narrow views of the so-called &ldquo;problems&rdquo; we are trying to solve and working like mad dogs to solve them.  The only problem is at some point the people crafting the actual software decided to let other members of the team / organization figure out all of the bigger picture stuff.  We are so obsessed with the mere technical details that we decided all of that other stuff wasn&rsquo;t really worth our time.</p>
+<p>Those of you who know me (which isn&rsquo;t many of you as this blog is largely anonymous) know that I&rsquo;m generally a big fan of Agile and I despise SCRUM.  One of the reasons for this is that SCRUM is basically what happens when you unleash a horde of slavering greedy MBAs on a perfect acceptable set of principles like what was outlined in the <a href="https://agilemanifesto.org/"  class="external-link" target="_blank" rel="noopener">Agile Manifesto</a>.  For those of you not in the know, I&rsquo;ll briefly repeat those principles below:</p>
+<ol>
+<li>Individuals and interactions over processes and tools</li>
+<li>Working software over comprehensive documentation</li>
+<li>Customer collaboration over contract negotiation</li>
+<li>Responding to change over following a plan</li>
+</ol>
+<p>That&rsquo;s it.  So simple and yet so true.  The primary problem with SCRUM is that it basically ruins all of those principles.  In the case of this particular blog post, the primary failing of concern is its bastardization of the third principle.</p>
+<p>The people writing the code generally don&rsquo;t directly collaborate with the customers.  Ever.  We talk to a Product Owner who if we are lucky talks directly to the customers.  Where I work now that Product person talks to the Support staff (who are slowly being replaced by LLMs sad to say) who might talk to the customer if we are lucky.  The collaboration cycle has been effectively broken.  I imagine it&rsquo;s the same at a lot of other places.</p>
+<p>But it&rsquo;s worse than that.  We aren&rsquo;t just not listening to our customers by subjecting them to an increasingly insane game of <a href="https://chadjthiele.com/2012/06/09/lessons-learned-from-the-telephone-game/"  class="external-link" target="_blank" rel="noopener">Telephone</a> but we are also actively going out of our way to ignore their real problems.  Why are we doing this?</p>
+<ol>
+<li>
+<p>Solving an individual customers problems isn&rsquo;t relevant at scale.  If you have a handful of customers, solving their individual problems is going to be your top priority. If you have a thousand, a hundred thousand or even a million customers, their individual problems cease to matter.  The specific pain just becomes easily discarded noise in an illusion propped up by selectively chosen metrics that exist to convince us of an alternate aggregate reality.</p>
+</li>
+<li>
+<p>The bigger our systems get and the more customers they serve, the easier it becomes to ignore the corner and edge cases that exist within it.  If 95% of customers are doing well enough not to complain then perhaps the other 5% are the source of the problem rather than the canaries warning you of a problem.</p>
+</li>
+<li>
+<p>None of us are being paid to solve customer problems.  At least not at the medium or big tech level.  We are being paid to deliver results and results have to be measurable.  The way those results are measured isn&rsquo;t in terms of customer satisfaction or touchy-feely metrics, but rather by whatever system your bosses have setup.</p>
+</li>
+</ol>
+<p>On some level technologists like myself have always been dangerously disconnected from the world around them, even decades ago.  But when we were primarily producing word processors and financial calculation systems, it didn&rsquo;t really matter.  Fast forward a few decades and we now live in a world where people aren&rsquo;t able to calmly discuss political points of disagreement around their family dinner table anymore because all of us are spending are days immersed in curated echo chambers in which we are only being exposed to whatever takes serve to prop up our existing opinions regardless of how sane or insane they happen to be.</p>
+<p>The reason for that is engagement.  Engagement is the terribly shitacular foundation that so much of our failure as an industry has been built upon.  At some point our real goal became to maximize our revenue and the best way to do that is to keep the customer inside your world as long as possible.  If they have less reason to leave, they have more reason to spend money, which in turn makes us more money.</p>
+<p>I despise this business model.  I love solving problems.  In fact when my therapist reads my post, she&rsquo;ll probably comment on the fact that I seem compulsively driven to solve problems people share with me.  It wasn&rsquo;t always like this with me, but I believe working in this industry for 25 years made me this way.  Thankfully that&rsquo;s not a bad thing because at least to me it shows me that my heart is still in the right place.</p>
+<p>So fuck the MBAs and their bullshit renditions of actual problems.  They can&rsquo;t be trusted and everything they do revolves around maximizing the company&rsquo;s revenue.  I don&rsquo;t care about the company&rsquo;s revenue.  I don&rsquo;t care about the company&rsquo;s profit margin.  Don&rsquo;t like it?  Go fuck yourself.  I got into this industry to solve people&rsquo;s problems.  I&rsquo;m getting out of it because not only do we not care to solve their problems, but we don&rsquo;t even care enough to take the time to properly define them.</p>
+<p>Instead we are just solving our problems and lining our own pockets while forcing the customers, which is a cute slur that basically refers to the group of people we are currently actively exploiting, to come along for the ride.</p>
+<p>Consequences be damned.</p>
+
+      </div>
+
+
+      <footer>
+        
+
+
+        
+        
+        
+        
+        
+
+        
+        
+      </footer>
+    </article>
+
+    
+  </section>
+
+    </div>
+
+    <footer class="footer">
+  <section class="container">
+    ©
+    
+    2024
+     IT Fossil 
+    ·
+    
+      Licensed under <a rel="license" href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.en">CC0 1.0 Universal</a>
+    ·
+    
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/" target="_blank" rel="noopener">Coder</a>.
+    
+  </section>
+</footer>
+
+  </main>
+
+  
+
+  
+  
+  <script src="/js/coder.min.6ae284be93d2d19dad1f02b0039508d9aab3180a12a06dcc71b0b0ef7825a317.js" integrity="sha256-auKEvpPS0Z2tHwKwA5UI2aqzGAoSoG3McbCw73gloxc="></script>
+  
+
+  
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+</body>
+
+</html>
