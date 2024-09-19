@@ -4,10 +4,17 @@
     <title>Musings of an IT Fossil</title>
     <link>https://itfossil.com/</link>
     <description>Recent content on Musings of an IT Fossil</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://itfossil.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Going Down with the Ship</title>
+      <link>https://itfossil.com/posts/2024/9/going-down-with-the-ship/</link>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://itfossil.com/posts/2024/9/going-down-with-the-ship/</guid>
+      <description>On June 18th, 2023, a submersible called the Titan made its final trip down to the wreckage of Titanic (which is about 3800 meters beneath sea level). It was carrying five passengers, some of which had apparently paid serious money to be part of the voyage (tickets were reportedly 250k a pop). Somewhere along the way, something went wrong, the vessel imploded and the people on board died.&#xA;So why are we talking about this?</description>
+    </item>
     <item>
       <title>The Surprisingly Empowering Loss of Zeal</title>
       <link>https://itfossil.com/posts/2024/8/the-surprisingly-empowering-loss-of-zeal/</link>
