@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://itfossil.com/verses/2024/11/lady-mary/</loc>
-    <lastmod>2024-11-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://itfossil.com/</loc>
+    <lastmod>2024-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://itfossil.com/posts/</loc>
+    <lastmod>2024-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://itfossil.com/posts/2024/11/the-terrified-within/</loc>
+    <lastmod>2024-11-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://itfossil.com/verses/2024/11/lady-mary/</loc>
     <lastmod>2024-11-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://itfossil.com/verses/2024/11/process-parley/</loc>
@@ -16,9 +22,6 @@
   </url><url>
     <loc>https://itfossil.com/verses/2024/11/wordpress-wankery/</loc>
     <lastmod>2024-11-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://itfossil.com/posts/</loc>
-    <lastmod>2024-10-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://itfossil.com/posts/2024/10/the-advice-trap/</loc>
     <lastmod>2024-10-27T00:00:00+00:00</lastmod>
