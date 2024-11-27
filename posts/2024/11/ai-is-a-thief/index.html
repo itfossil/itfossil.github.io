@@ -165,7 +165,7 @@ To those of you in the know, these statements are likely not going to shock you.
             </span>
             <span class="reading-time">
               <i class="fa-solid fa-clock" aria-hidden="true"></i>
-              11-minute read
+              12-minute read
             </span>
           </div>
           
@@ -227,7 +227,8 @@ To those of you in the know, these statements are likely not going to shock you.
 </blockquote>
 <p>This is basically them claiming that regardless of what their own CSV files say, the repo is permissively licensed because Stack is making that claim implicitly by mere virtue of including it in their dataset.  So in response to that, I actually downloaded the referenced ScanCode tool and ran it against my unlicensed repository examples.  The results were not promising.  The first one got some license matches, but as it turns out, it was a PHP project that makes use of the composer package manager which happens to store the licenses of its dependencies within a composer.lock file located at the root of the repository.  So all of those &ldquo;matches&rdquo; are complete bullshit.  The second repository had no matches at all.</p>
 <p>So the people behind The Stack V2 dataset have played very fast and loose with licensing because they are desperate for more training data.  The vendors who make use of this dataset are also turning a blind eye to the issue, because without this lions share of unlicensed code to train against, their AI coding assistants likely will not be able to compete against the others out there.</p>
-<p>In any event, the executives at my company haven&rsquo;t done anything with this&hellip; yet.  The vendor moved to close my ticket after blowing off my detailed response going through the ScanCode output for my example repositories which effectively proves that they are in fact unlicensed.  The executives at my employer have been very tight lipped since then.  Meanwhile the Slack channel for the ai assistant rollout is abuzz with activity, questions, tips and tricks from foolish engineers who ought to know better but don&rsquo;t.  Especially as it mostly generating craptacular code but I think a lot of the engineers are telling themselves that if learn to prompt it &ldquo;properly&rdquo; the output will improve.  Which of course is bollocks.</p>
+<p>In any event, the executives at my company haven&rsquo;t done anything with this&hellip; yet.  The vendor moved to close my ticket after blowing off my detailed response going through the ScanCode output for my example repositories which effectively proves that they are in fact unlicensed.  The executives at my employer have been very tight lipped since then.  Meanwhile the Slack channel for the ai assistant rollout is abuzz with activity, questions, tips and tricks from foolish engineers who ought to know better but don&rsquo;t.</p>
+<p>I would also be remiss not to mention that it mostly generates craptacular code.  Though I think a lot of the engineers are telling themselves that if they learn to prompt it &ldquo;properly&rdquo; then the output will improve.  Which of course is bollocks.  It&rsquo;s about as dumb as my garbage disposal, it just sputters out moderately more intelligible sentence fragments.</p>
 <p>So what&rsquo;s my next move?  Nothing.  I won&rsquo;t use this tool and no force in the company will change my position on that.  However, I can&rsquo;t change the fact that ongoing use of this tool by others is polluting our codebase and weakening my employer&rsquo;s claim of exclusive copyright on what used to be &ldquo;their own&rdquo; code.  I guess that will be some future person&rsquo;s problem though because nobody currently employed there seems to give a shit.</p>
 <p>What a fucking shame.</p>
 
