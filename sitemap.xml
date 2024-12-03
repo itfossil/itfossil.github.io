@@ -2,10 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://itfossil.com/posts/2024/11/ai-is-a-thief/</loc>
-    <lastmod>2024-11-27T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://itfossil.com/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://itfossil.com/verses/2024/12/scientific-reports-call-out/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://itfossil.com/verses/</loc>
+    <lastmod>2024-12-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://itfossil.com/posts/2024/11/ai-is-a-thief/</loc>
     <lastmod>2024-11-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://itfossil.com/posts/</loc>
@@ -15,9 +21,6 @@
     <lastmod>2024-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://itfossil.com/verses/2024/11/jira-board-ballads/</loc>
-    <lastmod>2024-11-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://itfossil.com/verses/</loc>
     <lastmod>2024-11-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://itfossil.com/posts/2024/11/the-terrified-within/</loc>
